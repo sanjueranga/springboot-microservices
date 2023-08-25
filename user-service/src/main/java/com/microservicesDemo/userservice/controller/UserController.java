@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.microservicesDemo.userservice.entity.User;
 import com.microservicesDemo.userservice.service.UserService;
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/user-service")
 public class UserController {
 
     private Logger logger = LoggerFactory.getLogger(UserController.class);

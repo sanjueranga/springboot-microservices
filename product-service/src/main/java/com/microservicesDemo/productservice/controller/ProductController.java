@@ -18,7 +18,7 @@ import com.microservicesDemo.productservice.entity.Product;
 import com.microservicesDemo.productservice.service.ProductService;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/product-service")
 public class ProductController {
 
     private Logger logger = LoggerFactory.getLogger(ProductController.class);
