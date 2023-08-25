@@ -3,3 +3,9 @@ spring:
     name: product-service
   config:
     import: "optional:configserver:http://localhost:8088"
+
+
+
+
+
+
